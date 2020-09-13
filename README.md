@@ -1,4 +1,4 @@
-![Banner](https://github.com/Majid-Derhambakhsh/Majid-Derhambakhsh/blob/master/MajidDerhambakhshDescription.png)
+![MAJID DERHAMBAKHSH](https://github.com/Majid-Derhambakhsh/Majid-Derhambakhsh/blob/master/MajidDerhambakhshDescription.png)
 
 <p align="center">
   <br>
