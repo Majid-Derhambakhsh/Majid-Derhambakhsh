@@ -1,4 +1,4 @@
-![Banner](Majid-Derhambakhsh.png)
+![Banner](Desc.png)
 <!--
 **Majid-Derhambakhsh/Majid-Derhambakhsh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
