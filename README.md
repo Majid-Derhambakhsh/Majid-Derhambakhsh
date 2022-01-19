@@ -1,4 +1,4 @@
-![MAJID DERHAMBAKHSH](https://github.com/Majid-Derhambakhsh/Majid-Derhambakhsh/blob/master/MajidDerhambakhshDescription2.png)
+![MAJID DERHAMBAKHSH](https://github.com/Majid-Derhambakhsh/Majid-Derhambakhsh/blob/master/Majid-Derhambakhsh.png)
 
 <p align="center">
     <a href="https://twitter.com/M_Derhambakhsh">
