@@ -2,24 +2,31 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
-jobs:
-  generate:
-    permissions:
-      contents: write
+permissions:
+  contents: write
 
+jobs:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: Platane/snk@v3
-        id: snake-gif
+      # 1. مهم‌ترین بخش (Fix اصلی)
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # 2. تولید فایل snake
+      - name: Generate snake
+        uses: Platane/snk@v3
         with:
           github_user_name: majid-derhambakhsh
           outputs: dist/github-contribution-grid-snake.svg
 
-      - uses: JamesIves/github-pages-deploy-action@v4
+      # 3. deploy به branch جدا
+      - name: Deploy to output branch
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: output
           folder: dist
